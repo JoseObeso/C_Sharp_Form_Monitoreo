@@ -596,12 +596,12 @@
             // 
             this.linkLabel4.AutoSize = true;
             this.linkLabel4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.Location = new System.Drawing.Point(283, 171);
+            this.linkLabel4.Location = new System.Drawing.Point(261, 168);
             this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(413, 19);
+            this.linkLabel4.Size = new System.Drawing.Size(520, 19);
             this.linkLabel4.TabIndex = 7;
             this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "http://visitas.irtp.gob.pe:5656/visitas/controlVisitas/index.php";
+            this.linkLabel4.Text = "https://visitas.irtp.gob.pe/controlVisitas/index.php?r=consultas/visitaConsulta";
             this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
             // label13
