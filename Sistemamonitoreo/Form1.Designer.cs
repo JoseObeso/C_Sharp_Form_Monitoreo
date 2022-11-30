@@ -104,7 +104,7 @@
             this.tabControl1.Location = new System.Drawing.Point(76, 44);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(789, 556);
+            this.tabControl1.Size = new System.Drawing.Size(1090, 556);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -115,7 +115,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(781, 530);
+            this.tabPage1.Size = new System.Drawing.Size(1082, 530);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "RED / SERVIDORES";
             // 
@@ -149,7 +149,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Location = new System.Drawing.Point(9, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(766, 496);
+            this.panel1.Size = new System.Drawing.Size(1067, 496);
             this.panel1.TabIndex = 6;
             // 
             // label9
@@ -418,9 +418,10 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(781, 530);
+            this.tabPage2.Size = new System.Drawing.Size(1082, 530);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "BASE DE DATOS";
+            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // dataGridView1
             // 
@@ -430,8 +431,9 @@
             this.dataGridView1.Location = new System.Drawing.Point(171, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(604, 454);
+            this.dataGridView1.Size = new System.Drawing.Size(911, 454);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button4
             // 
@@ -468,7 +470,7 @@
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(781, 530);
+            this.tabPage3.Size = new System.Drawing.Size(996, 530);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "ENLACES URL";
             // 
@@ -689,7 +691,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(916, 3);
+            this.button1.Location = new System.Drawing.Point(1054, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 54);
             this.button1.TabIndex = 2;
@@ -705,7 +707,7 @@
             // Btn_Min
             // 
             this.Btn_Min.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Btn_Min.Location = new System.Drawing.Point(846, 28);
+            this.Btn_Min.Location = new System.Drawing.Point(993, 28);
             this.Btn_Min.Name = "Btn_Min";
             this.Btn_Min.Size = new System.Drawing.Size(64, 29);
             this.Btn_Min.TabIndex = 4;
@@ -719,7 +721,7 @@
             this.panel2.Controls.Add(this.label10);
             this.panel2.Location = new System.Drawing.Point(3, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(958, 39);
+            this.panel2.Size = new System.Drawing.Size(1054, 39);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
@@ -741,7 +743,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(973, 631);
+            this.ClientSize = new System.Drawing.Size(1178, 631);
             this.Controls.Add(this.Btn_Min);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
