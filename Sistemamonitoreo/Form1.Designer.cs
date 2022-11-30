@@ -149,7 +149,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Location = new System.Drawing.Point(9, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1067, 496);
+            this.panel1.Size = new System.Drawing.Size(1067, 524);
             this.panel1.TabIndex = 6;
             // 
             // label9
@@ -431,7 +431,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(171, 6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(911, 454);
+            this.dataGridView1.Size = new System.Drawing.Size(911, 518);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
