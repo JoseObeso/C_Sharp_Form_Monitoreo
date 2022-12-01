@@ -104,7 +104,7 @@
             this.tabControl1.Location = new System.Drawing.Point(76, 44);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1090, 556);
+            this.tabControl1.Size = new System.Drawing.Size(1191, 556);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -115,7 +115,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1082, 530);
+            this.tabPage1.Size = new System.Drawing.Size(1183, 530);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "RED / SERVIDORES";
             // 
@@ -149,7 +149,7 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Location = new System.Drawing.Point(9, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1067, 524);
+            this.panel1.Size = new System.Drawing.Size(1168, 524);
             this.panel1.TabIndex = 6;
             // 
             // label9
@@ -418,7 +418,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1082, 530);
+            this.tabPage2.Size = new System.Drawing.Size(1183, 530);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "BASE DE DATOS";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
@@ -428,10 +428,10 @@
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(171, 6);
+            this.dataGridView1.Location = new System.Drawing.Point(10, 40);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(911, 518);
+            this.dataGridView1.Size = new System.Drawing.Size(1167, 484);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -440,9 +440,9 @@
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Location = new System.Drawing.Point(10, 6);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(155, 161);
+            this.button4.Size = new System.Drawing.Size(645, 28);
             this.button4.TabIndex = 0;
-            this.button4.Text = "REVISAR LOS ULTIMOS  REGISTROS GRABADOS EN BD MARCACIONES";
+            this.button4.Text = "REVISAR LOS ULTIMOS  REGISTROS GRABADOS EN BD MARCACIONES (click aqui)\r\n";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -470,7 +470,7 @@
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(996, 530);
+            this.tabPage3.Size = new System.Drawing.Size(1082, 530);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "ENLACES URL";
             // 
@@ -743,7 +743,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1178, 631);
+            this.ClientSize = new System.Drawing.Size(1300, 631);
             this.Controls.Add(this.Btn_Min);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
